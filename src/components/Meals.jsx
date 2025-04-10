@@ -16,7 +16,7 @@ export default function Meals() {
     handleLoadedMeals();
   }, []);
 
-  console.log(loadedMeals);
+
   return (
     <ul id="meals">
       {loadedMeals.map((meal) => ( 
